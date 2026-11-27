@@ -1,50 +1,50 @@
-"Trois truites tres tetues traversent tranquillement trente trottoirs",
-"J'ai oublie pourquoi j'etais venu, mais je repars avec un grille-pain",
-"Le developpeur debugue difficilement des donnees desynchronisees",
-"Six cyborgs sophistiques sifflotent sous sept satellites",
-"Pourquoi les chaussettes disparaissent-elles myster ieusement apres chaque lessive ?",
-"Un sympathique psychopathe psychologique synchronise ses symptomes",
-"Quatre quatorze quarts de fromage fondent dans le four",
-"L'extraordinaire extraterrestre experimente l'extreme extravagance",
-"Je jongle joyeusement avec douze jongleurs japonais",
-"Meme mon clavier semble juger mes decisions catastrophiques",
-"Les statistiques demontrent statistiquement que statistiquement tout est statistique",
-"Un pingouin panique pianote peniblement sur un petit piano",
-"La bureaucratie francaise transforme trois formulaires en trente-six formalites",
-"C'est completement contradictoire, mais curieusement coherent",
-"Mon mysterieux mecanisme mecanique manque manifestement de mecaniciens",
-"J'exige immediatement une explication extremement detaillee",
-"Le magnifique moustachu mange methodiquement mille marshmallows",
-"Zut, j'ai zigzague jusqu'a la zone interdite sans autorisation",
-"Les extraterrestres debarquent avec des trottinettes electriques defectueuses",
-"Une grenouille grincheuse grignote genereusement des graines grillees",
-"Quelqu'un a accidentellement desactive definitivement le distributeur automatique",
-"L'incomprehensible incomprehension incombe incontestablement a l'incompetence",
-"J'affirme avec assurance que cette affirmation est assurement fausse",
-"Le chat chaotique chasse cinq chiens chetifs chez le chiropracteur",
-"Attention, cette phrase contient beaucoup trop de caracteres speciaux !",
-"Meme apres verification, je n'ai toujours rien compris a cette configuration",
-"L'architecte excentrique juxtapose judicieusement des structures asymetriques",
-"Pourquoi synchroniser six systemes si seulement cinq fonctionnent correctement ?",
-"Un extraterrestre extremement exigeant exige vingt-six croissants supplementaires",
-"La procrastination professionnelle necessite probablement une specialisation universitaire",
-"J'ai malencontreusement melange les majuscules, minuscules et caracteres accentues",
-"Saperlipopette, ce sympathique specimen surestime serieusement ses superpouvoirs",
-"Le clavier QWERTY devient franchement complique lorsqu'on cherche un AZERTY",
-"Qu'est-ce qu'un cactus caractériel cache dans un coffre cryptographique ?",
-"L'exception exceptionnelle confirme exceptionnellement l'existence d'exceptions",
-"Un canard narcissique negocie naivement neuf nouvelles notifications",
-"Cinq chasseurs sachant chasser chassent sans succes six chats sauvages",
-"L'algorithme algorithmique algorithmiquement analyse des anomalies algorithmiques",
-"J'aurais du reflechir avant d'ecrire cette phrase particulierement interminable",
-"Le sphinx spherique se specialise specifiquement dans les specifications",
-"Une succession de circonstances circonstancielles complique considerablement la situation",
-"Pri ere de prevenir prealablement les personnes particulierement preoccupees",
-"Mon superordinateur surchauffe subitement suite a sept simulations simultanees",
-"Des developpeurs desesperes deploient delicatement des dispositifs dysfonctionnels",
-"42 erreurs, 7 avertissements et 0 explication : bienvenue dans mon programme",
-"Le chevalier chausse ses chaussures chics chez le charcutier",
-"Je prefere pretendre que cette procedure procedurale est parfaitement pro cedee",
-"Un mysterieux melange de mayonnaise, de meteorites et de microprocesseurs",
-"L'hyperactivite hypothetique d'un hamster hysterique handicape l'humanite",
-"Ca parait simple, sauf lorsqu'on doit simultanement saisir cette phrase"
+Trois truites tres tetues traversent tranquillement trente trottoirs;
+J'ai oublie pourquoi j'etais venu mais je repars avec un grille-pain;
+Le developpeur debugue difficilement des donnees desynchronisees;
+Six cyborgs sophistiques sifflotent sous sept satellites;
+Pourquoi les chaussettes disparaissent-elles myster ieusement apres chaque lessive ?
+Un sympathique psychopathe psychologique synchronise ses symptomes;
+Quatre quatorze quarts de fromage fondent dans le four;
+L'extraordinaire extraterrestre experimente l'extreme extravagance;
+Je jongle joyeusement avec douze jongleurs japonais;
+Meme mon clavier semble juger mes decisions catastrophiques;
+Les statistiques demontrent statistiquement que statistiquement tout est statistique;
+Un pingouin panique pianote peniblement sur un petit piano;
+La bureaucratie francaise transforme trois formulaires en trente-six formalites;
+C'est completement contradictoire mais curieusement coherent;
+Mon mysterieux mecanisme mecanique manque manifestement de mecaniciens;
+J'exige immediatement une explication extremement detaillee;
+Le magnifique moustachu mange methodiquement mille marshmallows;
+Zut j'ai zigzague jusqu'a la zone interdite sans autorisation;
+Les extraterrestres debarquent avec des trottinettes electriques defectueuses;
+Une grenouille grincheuse grignote genereusement des graines grillees;
+Quelqu'un a accidentellement desactive definitivement le distributeur automatique;
+L'incomprehensible incomprehension incombe incontestablement a l'incompetence;
+J'affirme avec assurance que cette affirmation est assurement fausse;
+Le chat chaotique chasse cinq chiens chetifs chez le chiropracteur;
+Attention cette phrase contient beaucoup trop de caracteres speciaux !
+Meme apres verification je n'ai toujours rien compris a cette configuration;
+L'architecte excentrique juxtapose judicieusement des structures asymetriques;
+Pourquoi synchroniser six systemes si seulement cinq fonctionnent correctement ?
+Un extraterrestre extremement exigeant exige vingt-six croissants supplementaires;
+La procrastination professionnelle necessite probablement une specialisation universitaire;
+J'ai malencontreusement melange les majuscules minuscules et caracteres accentues;
+Saperlipopette ce sympathique specimen surestime serieusement ses superpouvoirs;
+Le clavier QWERTY devient franchement complique lorsqu'on cherche un AZERTY;
+Qu'est-ce qu'un cactus caractériel cache dans un coffre cryptographique ?
+L'exception exceptionnelle confirme exceptionnellement l'existence d'exceptions;
+Un canard narcissique negocie naivement neuf nouvelles notifications;
+Cinq chasseurs sachant chasser chassent sans succes six chats sauvages;
+L'algorithme algorithmique algorithmiquement analyse des anomalies algorithmiques;
+J'aurais du reflechir avant d'ecrire cette phrase particulierement interminable;
+Le sphinx spherique se specialise specifiquement dans les specifications;
+Une succession de circonstances circonstancielles complique considerablement la situation;
+Pri ere de prevenir prealablement les personnes particulierement preoccupees;
+Mon superordinateur surchauffe subitement suite a sept simulations simultanees;
+Des developpeurs desesperes deploient delicatement des dispositifs dysfonctionnels;
+42 erreurs 7 avertissements et 0 explication : bienvenue dans mon programme;
+Le chevalier chausse ses chaussures chics chez le charcutier;
+Je prefere pretendre que cette procedure procedurale est parfaitement pro cedee;
+Un mysterieux melange de mayonnaise de meteorites et de microprocesseurs;
+L'hyperactivite hypothetique d'un hamster hysterique handicape l'humanite;
+Ca parait simple sauf lorsqu'on doit simultanement saisir cette phrase

@@ -1,2 +1,2 @@
 Name,Score
-lu,2
+lui,2

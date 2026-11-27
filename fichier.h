@@ -7,4 +7,8 @@ void readFromFile(const char* filename);
 
 char* extractPhrase(const char* filename);
 
+void remplirTableauPhrase(char* data, char* phrase);
+
+int connaitreNombrePhrases(const char* filename);
+
 char** tableauDePhrases(char* unePhrase);

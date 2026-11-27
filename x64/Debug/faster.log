@@ -1,7 +1,10 @@
-﻿  fichier.c
-C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(38,9): warning C4098: 'readFromFile' : fonction 'void' retournant une valeur
-C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(56,9): warning C4047: 'return' : les niveaux d'indirection de 'char *' et de 'int' sont différents
-C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(60,20): warning C4013: 'calloc' non défini(e) ; extern retournant int pris par défaut
-C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(60,11): warning C4047: 'initialisation' : les niveaux d'indirection de 'char *' et de 'int' sont différents
-C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(90,12): warning C4047: 'initialisation' : les niveaux d'indirection de 'char **' et de 'int' sont différents
+﻿  faster.c
+  fichier.c
+  Génération de code en cours...
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(39,9): warning C4098: 'readFromFile' : fonction 'void' retournant une valeur
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(116,8): warning C4029: la déclaration de la liste de paramètres formels est différente de la définition
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(131,9): warning C4047: 'return' : les niveaux d'indirection de 'char **' et de 'int' sont différents
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(136,14): warning C4013: 'strcspn' non défini(e) ; extern retournant int pris par défaut
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(138,36): warning C4013: 'strlen' non défini(e) ; extern retournant int pris par défaut
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(149,9): warning C4013: 'strcpy' non défini(e) ; extern retournant int pris par défaut
   faster.vcxproj -> C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\x64\Debug\faster.exe

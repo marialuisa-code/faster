@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "fichier.h"
 
 int writeInFile(const char* filename, const char* mode, const char* text) {
@@ -48,45 +49,113 @@ void readFromFile(const char* filename) {
 }
 
 char* extractPhrase(const char* filename) {
-    //lire le fichier
-    FILE* fptr = fopen(filename, "rb");
+    char data[500];
+    char* phrase = calloc(500, sizeof(char));
+    FILE* fptr = fopen(filename, "r");
+
     if (fptr == NULL)
     {
         printf("File failed to open.\n");
-        return 1;
+        return NULL;
     }
 
-    char data[500];
-    char* phrase = calloc(100, sizeof(char));
-   
-    int i = 0;
+    if (phrase == NULL)
+    {
+        fclose(fptr);
+        return NULL;
+    }
 
     while (fgets(data, sizeof(data), fptr) != NULL)
     {
         printf("Ligne lue : %s\n", data);
+        remplirTableauPhrase(data, phrase);
+    }
 
-        int j = 0;
-        for (int i = 0; data[i] != '\0'; i++)
+    fclose(fptr);
+
+    return phrase;
+}
+
+void remplirTableauPhrase(char* data, char* phrase) {
+    int j = 0;
+    for (int i = 0; data[i] != '\0'; i++)
+    {
+        if (data[i] != ';')
         {
             phrase[j] = data[i];
             j++;
         }
-
-        phrase[j] = '\0';
     }
 
-    
-    
-    //fermer ptr
-    fclose(fptr);
-    
-    return phrase;
-
+    phrase[j] = '\0';
 }
 
-//apres faire un random sur le double tableau et l'indice sera celui de la phrase que l'utilisateur devra tapper
+int connaitreNombrePhrases(const char* filename) {
+    FILE* fptr = fopen(filename, "r");
+    char data[500];
+    int nbPhrases = 0;
 
-char** tableauDePhrases(char* unePhrase) {
-    char** tableauPhrases = calloc(sizeof(unePhrase), sizeof(char*));
+    if (fptr == NULL)
+    {
+        printf("File failed to open.\n");
+        return -1;
+    }
+
+    while (fgets(data, sizeof(data), fptr) != NULL)
+    {
+        nbPhrases = nbPhrases + 1;
+    }
+
+    fclose(fptr);
+
+    return nbPhrases;
+}
+
+char** tableauDePhrases(char* filename) {
+
+    int nbPhrases = connaitreNombrePhrases(filename);
+
+    if (nbPhrases < 0) {
+        return NULL;
+    }
+
+    char** tableauPhrases = calloc(nbPhrases, sizeof(char*));
+
+    if (tableauPhrases == NULL)
+        return NULL;
+
+    FILE* fptr = fopen(filename, "r");
+
+    if (fptr == NULL) {
+        free(tableauPhrases);
+        return NULL;
+    }
+
+    char data[500];
+    char unePhrase[500];
+    int i = 0;
+
+    while (i < nbPhrases && fgets(data, sizeof(data), fptr) != NULL) {
+
+        remplirTableauPhrase(data, unePhrase);
+
+        tableauPhrases[i] = malloc(strlen(unePhrase) + 1);
+
+        if (tableauPhrases[i] == NULL) {
+            for (int j = 0; j < i; j++)
+                free(tableauPhrases[j]);
+
+            free(tableauPhrases);
+            fclose(fptr);
+            return NULL;
+        }
+
+        strcpy(tableauPhrases[i], unePhrase);
+
+        i++;
+    }
+
+    fclose(fptr);
+
     return tableauPhrases;
 }
