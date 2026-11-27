@@ -1,0 +1,7 @@
+﻿  fichier.c
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(38,9): warning C4098: 'readFromFile' : fonction 'void' retournant une valeur
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(56,9): warning C4047: 'return' : les niveaux d'indirection de 'char *' et de 'int' sont différents
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(60,20): warning C4013: 'calloc' non défini(e) ; extern retournant int pris par défaut
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(60,11): warning C4047: 'initialisation' : les niveaux d'indirection de 'char *' et de 'int' sont différents
+C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\faster\fichier.c(90,12): warning C4047: 'initialisation' : les niveaux d'indirection de 'char **' et de 'int' sont différents
+  faster.vcxproj -> C:\www\polytech\premiereAnnee\programmationEtAlgo\C\programmesC\faster\x64\Debug\faster.exe

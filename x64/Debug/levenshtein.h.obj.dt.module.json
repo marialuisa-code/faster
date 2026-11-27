@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\levenshtein.obj",
+            "outputs": [
+                "x64\\Debug\\levenshtein.h.obj.dt.module.json",
+                "x64\\Debug\\levenshtein.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
